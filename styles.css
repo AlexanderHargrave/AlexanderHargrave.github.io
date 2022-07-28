@@ -1,5 +1,7 @@
 body {
 	margin: 0;
 	background: url(https://w0.peakpx.com/wallpaper/271/9/HD-wallpaper-video-game-genshin-impact-inazuma-genshin-impact.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
 	text-align: center;
 }
