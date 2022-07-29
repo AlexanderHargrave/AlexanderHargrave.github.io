@@ -43,6 +43,7 @@ p {
 	top: 20px;
 	overflow-x: hidden;
 	vertical-align: middle;
+	align-items: flex-end;
 
 }
 .sidenav a {
