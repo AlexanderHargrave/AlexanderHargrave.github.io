@@ -44,6 +44,7 @@ p {
 	overflow-x: hidden;
 	vertical-align: middle;
 	align-items: flex-end;
+	justify-content: safe center;
 
 }
 .sidenav a {
