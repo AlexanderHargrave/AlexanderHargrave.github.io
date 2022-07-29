@@ -36,3 +36,20 @@ p {
     	transform:translateX(25%);
     }
 }
+.sidenav {
+	width: 100px;
+	position: fixed;
+	z-index: 1;
+	top: 20px;
+	overflow-x: hidden;
+
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  display: block;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
