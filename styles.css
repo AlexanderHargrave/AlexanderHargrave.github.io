@@ -1,10 +1,3 @@
-/*.bg {
-	background-color: black ;
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-	height: 100%
-}*/
 html {
   height:100%;
 }
@@ -15,10 +8,10 @@ body {
 
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  background-image: linear-gradient(-12.5deg, #2e72c9 50%, #a2c9fa 50%);
   bottom:0;
   left:-50%;
-  opacity:.5;
+  opacity:.2;
   position:fixed;
   right:-50%;
   top:0;
@@ -27,11 +20,11 @@ body {
 
 .bg2 {
   animation-direction:alternate-reverse;
-  animation-duration:4s;
+  animation-duration:7s;
 }
 
 .bg3 {
-  animation-duration:5s;
+  animation-duration:6s;
 }
 @keyframes slide {
   0% {
@@ -44,7 +37,7 @@ body {
 
 .topnav {
 	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(48, 165, 255, 0.6) 0%, rgba(26, 77, 210, 0.9) 50%, rgba(0, 0, 154, 0.5) 100%);
+	background: linear-gradient(45deg, rgb(0,20,64) 0%, rgb(0,78,255) 50%, rgb(30,143,213) 90%);
 	overflow: hidden;
 	width: 100%;
 
@@ -52,7 +45,7 @@ body {
 
 .topnav a {
 	float: left;
-	color: #f2f2f2;
+	color: #f2f2f8;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
