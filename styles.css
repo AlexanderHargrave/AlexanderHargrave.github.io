@@ -52,6 +52,29 @@ p {
   text-decoration: none;
   display: block;
 }
+.Introduction {
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+               3px 4px 4px rgba(179, 147, 211, 0.15),
+               4px 6px 4px rgba(179, 147, 211, 0.2),
+               5px 8px 4px rgab(179, 147, 211, 0.25);
+    animation: cursor 1s infinite step-end, typing 15s infinite steps(16);
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes cursor{
+    0%, 100%{border-color: transparent;}
+    50%{border-color: #000;}
+}
+
+@keyframes typing{
+  0%{ width: 0ch}
+  30%{ width: 16ch;} 
+  80%{ width: 16ch;} 
+  90%{ width: 0ch;} 
+  100%{ width: 0ch;} 
+}
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
