@@ -42,6 +42,7 @@ p {
 	position: fixed;
 	z-index: 1;
 	top: 20px;
+	padding: 6px 8px 6px 16px;
 	overflow-x: hidden;
 	vertical-align: middle;
 	align-items: flex-end;
