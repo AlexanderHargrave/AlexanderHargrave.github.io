@@ -1,5 +1,6 @@
 html {
   height:100%;
+  width: 100%;
 }
 
 body {
@@ -58,7 +59,7 @@ p {
                3px 4px 4px rgba(179, 147, 211, 0.15),
                4px 6px 4px rgba(179, 147, 211, 0.2),
                5px 8px 4px rgab(179, 147, 211, 0.25);
-    animation: cursor 1s infinite step-end, typing 15s infinite steps(16);
+    animation: cursor 0.5s infinite step-end, typing 9s infinite steps(16);
     white-space: nowrap;
     overflow: hidden;
 }
