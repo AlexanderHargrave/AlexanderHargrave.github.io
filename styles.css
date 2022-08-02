@@ -56,25 +56,17 @@ p {
 }
 .Introduction {
 	position: relative;
-    top: 50px;
     margin: 0 auto;
-    padding: 40px;
     text-align: center;
     width: 400px;
-    border-right: 4px solid #000;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+	display: flex;
 	text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
                3px 4px 4px rgba(179, 147, 211, 0.15),
                4px 6px 4px rgba(179, 147, 211, 0.2),
                5px 8px 4px rgab(179, 147, 211, 0.25);
-    white-space: nowrap;
-    overflow: hidden;
-}
-@keyframes cursor{
-    0%, 100%{border-color: transparent;}
-    50%{border-color: #000;}
 }
 }
 @media screen and (max-height: 450px) {
