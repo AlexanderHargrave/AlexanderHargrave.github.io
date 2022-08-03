@@ -42,10 +42,11 @@ p {
 }
 .nav {
 	width: 100px;
+	height: 100px;
 	position: fixed;
-	top: 20px;
-	padding: 6px 6px;
+	padding: 5px 5px;
 	float: left;
+	display: inline-block;
 
 }
 
