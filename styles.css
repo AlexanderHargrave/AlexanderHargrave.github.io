@@ -45,15 +45,10 @@ p {
 	position: fixed;
 	top: 20px;
 	padding: 6px 6px;
-	background: rebeccapurple;
+	float: left;
 
 }
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  display: block;
-  float: left;
-}
+
 .Introduction {
 	position: relative;
     margin: 0 auto;
