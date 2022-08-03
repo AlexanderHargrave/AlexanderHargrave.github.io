@@ -40,16 +40,11 @@ p {
     	transform:translateX(25%);
     }
 }
-.sidenav {
+.nav {
 	width: 100px;
 	position: fixed;
-	z-index: 1;
 	top: 20px;
-	padding: 6px 8px 6px 16px;
-	overflow-x: hidden;
-	vertical-align: middle;
-	align-items: flex-end;
-	justify-content: safe center;
+	padding: 6px 6px;
 
 }
 .sidenav a {
