@@ -42,12 +42,17 @@ p {
 }
 .nav {
 	width: 100px;
+	overflow: auto;
 	height: 100px;
 	position: fixed;
 	padding: 5px 5px;
-	float: left;
+	
 	display: inline-block;
-
+}
+.nav a{
+	width: 10%;
+	float: left;
+	text-align: center;
 }
 
 .Introduction {
