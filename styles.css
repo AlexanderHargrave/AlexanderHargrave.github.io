@@ -45,6 +45,7 @@ p {
 	position: fixed;
 	top: 20px;
 	padding: 6px 6px;
+	background: rebeccapurple;
 
 }
 .sidenav a {
